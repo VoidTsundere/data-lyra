@@ -5,8 +5,38 @@
         "response":["Test accepted"]
     },
     {
+        "tag":"bom dia",
+        "text":["bom dia","ola bom dia"],
+        "response":["Olá, bom dia!"]
+    },
+    {
         "tag":"greeting",
-        "text":["ola tudo bem?"],
-        "response":["Hello"]
+        "text":["ola tudo bem?", "olá como vc vai?","como vc está", "tudo bem com voce"],
+        "response":["Olá tudo bem, comigo vai bem, e com você?"]
+    },
+    {
+        "tag":"oq e o labtec",
+        "text":["oque é o labtec","oq e o labtec","labtec é oq?","qual foi desse labtec?"],
+        "response":["LabTec é o Laboratório de Tecnologias Computacionais da UFSC"]
+    },
+    {
+        "tag":"Qual sua cor favorita",
+        "text":["qual sua cor fav", "qual sua cor favorita","que cor vc gosta"],
+        "response":["Minha cor favorita é roxo"]
+    },
+    {
+        "tag":"Oq é o migma",
+        "text":["migma é oq","oque e esse migma?","pra que serve o migma","qual a função do migma?"],
+        "response":["MIGMA é um uam inteligencia artificial de reconhecimento facial que é capaz de indentificar 7 emoções diferentes."]
+    },
+    {
+        "tag":"oq é o mazak",
+        "text":["oq é o mazk", "oque o mazk faz?","pra qeu serve o mazk","qual a função do mazk"],
+        "response":["MAZK é uma plataforma para ajudar no aprendizado nas escolas oinde os preofessores podem adicionar trabalhos, atividades e matérias naplaatadorma onde os alunos podem se encotrar mais fácil."]
+    },
+    {
+        "tag":"meninas digitais",
+        "text":["meninas digitais é oq","oque e esse projeto das meninas dgitais?","pra que serve as meninas digitais"],
+        "response":["Sabendo que apenas 20% do mercado de TI é composto de mulheres, esse projeto visa trazer mais delas çara o mercado assim incentivando os estudo e desenvolvimento."]
     }
 ]}
