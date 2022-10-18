@@ -1,0 +1,12 @@
+{"intents":[
+    {
+        "tag":"testing",
+        "text":["test"],
+        "response":["Test accepted"]
+    },
+    {
+        "tag":"greeting",
+        "text":["ola tudo bem?"],
+        "response":["Hello"]
+    }
+]}
