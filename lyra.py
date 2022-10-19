@@ -148,5 +148,5 @@ def single_response(inp):
             tex = i["response"][random.randrange(0, len(i["response"]))]
             return tex
         
-#chat()
+chat()
 #print(single_response("ola tudo bem"))
