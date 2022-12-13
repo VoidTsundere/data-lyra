@@ -1,0 +1,6 @@
+
+data/train/checkpoint
+data/train/train.pickle
+data/train/train.tf.data-00000-of-00001
+data/train/train.tf.index
+data/train/train.tf.meta

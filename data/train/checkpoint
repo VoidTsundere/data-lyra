@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\Dere\\Documents\\GitHub\\Data-Lyra\\data\\train\\train.tf"
-all_model_checkpoint_paths: "C:\\Users\\Dere\\Documents\\GitHub\\Data-Lyra\\data\\train\\train.tf"
+model_checkpoint_path: "C:\\Users\\pette\\Documents\\GitHub\\data-lyra\\data\\train\\train.tf"
+all_model_checkpoint_paths: "C:\\Users\\pette\\Documents\\GitHub\\data-lyra\\data\\train\\train.tf"
