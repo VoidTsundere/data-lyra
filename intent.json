@@ -1,10 +1,5 @@
 {"intents":[
     {
-        "tag":"testing",
-        "text":["test"],
-        "response":["Test accepted"]
-    },
-    {
         "tag":"bom dia",
         "text":["bom dia","ola bom dia"],
         "response":["Olá, bom dia!"]
@@ -37,6 +32,21 @@
     {
         "tag":"meninas digitais",
         "text":["meninas digitais é oq","oque e esse projeto das meninas dgitais?","pra que serve as meninas digitais"],
-        "response":["Sabendo que apenas 20% do mercado de TI é composto de mulheres, esse projeto visa trazer mais delas çara o mercado assim incentivando os estudo e desenvolvimento."]
+        "response":["Sabendo que apenas 25% do mercado de TI é composto de mulheres, esse projeto visa trazer mais delas çara o mercado assim incentivando os estudo e desenvolvimento."]
+    },
+    {
+        "tag":"Holoanapath",
+        "text":["Esse Holoanapath é oque", "o projeto do hololens faz oque", "holo que é isso"],
+        "response":["HoloAnaPath é o projeto que utiliza o HoloLens 2 como ferramenta, nele podemos visualizar patologias em tempo real e através de um ambiente 3D simulado em realidade Mista, ou seja, você pode ver o tudo normalmente e ainda por cima ver um mundo holográfico que permite a interação."]
+    },
+    {
+        "tag":"Oq é a vida",
+        "text":["Esse Holoanapath é oque", "o projeto do hololens faz oque", "holo que é isso"],
+        "response":["HoloAnaPath é o projeto que utiliza o HoloLens 2 como ferramenta, nele podemos visualizar patologias em tempo real e através de um ambiente 3D simulado em realidade Mista, ou seja, você pode ver o tudo normalmente e ainda por cima ver um mundo holográfico que permite a interação."]
+    },
+    {
+        "tag":"Opinião politica",
+        "text":["Faz o L", "Lula ou bolsonaro", "opiniao politica", "qual seu partido", "vc é de esquerda ou de deireita"],
+        "response":["Não posso dar nenhuma opinião política, quem me fez não permite."]
     }
 ]}
