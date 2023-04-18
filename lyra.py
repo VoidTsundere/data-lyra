@@ -9,6 +9,7 @@ import json
 import pickle
 from os import path
 
+
 #Faz o download do pacote punkt caso não exista
 nltk_download('punkt')
 
@@ -16,7 +17,7 @@ nltk_download('punkt')
 stemmer = LancasterStemmer()
 
 #variaveis que definem o caminho e o nome dos arquivos
-data_path = "data/train"
+data_path = "./"
 data_name = "train"
 
 #abre o arquivo de falas e questões
@@ -139,6 +140,9 @@ def single_response(inp):
     #envia o texto para a AI
     result = model.predict([bag_of_words(inp, words)])
     #obtem o resultado em % e tranforma em nome de question TAG
+    print(result.max()*100)
+    if result.max()*100 < 60:
+        return ("Não compreendi, poderia responder de novo?")
     result_index = numpy.argmax(result)
     tag = labels[result_index]
 
@@ -148,5 +152,5 @@ def single_response(inp):
             tex = i["response"][random.randrange(0, len(i["response"]))]
             return tex
         
-chat()
+#chat()
 #print(single_response("ola tudo bem"))

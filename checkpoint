@@ -1,0 +1,2 @@
+model_checkpoint_path: "/workspaces/data-lyra/train.tf"
+all_model_checkpoint_paths: "/workspaces/data-lyra/train.tf"

@@ -1,8 +1,8 @@
 {"intents":[
     {
         "tag":"bom dia",
-        "text":["bom dia","ola bom dia"],
-        "response":["Olá, bom dia!"]
+        "text":["bom dia","ola bom dia", "olá tudo bom", "tudo bem com voce", "eai, tudo certo"],
+        "response":["Olá, bom dia!", "Bom dia, comigo tá ótimo espero que com você tambem"]
     },
     {
         "tag":"greeting",
@@ -11,23 +11,23 @@
     },
     {
         "tag":"oq e o labtec",
-        "text":["oque é o labtec","oq e o labtec","labtec é oq?","qual foi desse labtec?"],
-        "response":["LabTec é o Laboratório de Tecnologias Computacionais da UFSC"]
+        "text":["oque é o labtec","oq e o labtec","labtec é oq?","qual foi desse labtec?", "o que é esse tal de lab aí", "esse laboratório faz oque", "não sei o que o laboratorio faz, me explica"],
+        "response":["LabTec é o Laboratório de Tecnologias Computacionais da UFSC, nele fazemos vários projetos como: meninas digitais, Mazk, HoloAnaPath, WorkWise, Migma, RA Nas Escolas e entre outros."]
     },
     {
         "tag":"Qual sua cor favorita",
-        "text":["qual sua cor fav", "qual sua cor favorita","que cor vc gosta"],
-        "response":["Minha cor favorita é roxo"]
+        "text":["qual sua cor fav", "qual sua cor favorita","que cor vc gosta", "de que cor você mais gosta"],
+        "response":["Minha cor favorita é azul, especialmente o azul cristal"]
     },
     {
         "tag":"Oq é o migma",
-        "text":["migma é oq","oque e esse migma?","pra que serve o migma","qual a função do migma?"],
-        "response":["MIGMA é um uam inteligencia artificial de reconhecimento facial que é capaz de indentificar 7 emoções diferentes."]
+        "text":["migma é oq","oque e esse migma?","pra que serve o migma","qual a função do migma?", "oque tem nesse migma"],
+        "response":["MIGMA é uma inteligencia artificial de reconhecimento facial que é capaz de indentificar 7 emoções diferentes. Usamos ela juntamente ao projeto Mazk para melhorar o ensino dos alunos, como? Bom expressão facial pode dizer muita coisa dutane a prova."]
     },
     {
         "tag":"oq é o mazak",
         "text":["oq é o mazk", "oque o mazk faz?","pra qeu serve o mazk","qual a função do mazk"],
-        "response":["MAZK é uma plataforma para ajudar no aprendizado nas escolas oinde os preofessores podem adicionar trabalhos, atividades e matérias naplaatadorma onde os alunos podem se encotrar mais fácil."]
+        "response":["MAZK é uma plataforma para ajudar no aprendizado nas escolas onde os preofessores podem adicionar trabalhos, atividades e matérias naplaatadorma onde os alunos podem se encotrar mais fácil."]
     },
     {
         "tag":"meninas digitais",
